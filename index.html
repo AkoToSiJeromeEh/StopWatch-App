@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darling TickTock</title>
+    <link rel="stylesheet" href="timer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Circle-container">
+        <div class="Circle">
+            <div class="timer">
+                <span id="hours">00</span><span>:</span>
+                <span id="minutes">00</span><span>:</span>
+                <span id="seconds">00</span>
+            </div>
+        </div>
+        <div class="btn-function">
+            <button id="btn-start"><i class="fa-solid fa-play fa-lg"></i></button>
+            <button id="btn-stop"><i class="fa-solid fa-pause fa-lg"></i></button>
+            <button id="btn-reset"><i class="fa-solid fa-repeat"></i></button>
+            <button id="btn-lap"><i class="fa-solid fa-flag-checkered fa-lg"></i></button>
+        </div>
+        <div class="lap-function" id="laps-cont">
+            <ul id="timelapse-container">
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="copyright">
+                &copy; Darling TickTock | All Rights Reserved 2023
+            </div>
+            <div class="icons">
+                <button><i class="fa-brands fa-facebook icon"></i></button>
+                <button><i class="fa-brands fa-twitter icon"></i></button>
+                <button><i class="fa-brands fa-instagram icon"></i></button>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="timer.js"></script>
+</body>
+</html>
